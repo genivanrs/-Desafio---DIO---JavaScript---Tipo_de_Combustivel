@@ -6,7 +6,6 @@ let x = true
 while (x) {
 const code = Number(gets())
 switch (code) {
-
 case 1:
 alcohol++
 break
@@ -18,13 +17,10 @@ diesel++
 break
 case 4:
 x = false
-break}
-}
+break
+}}
 
 console.log("MUITO OBRIGADO")
-
 console.log("Alcool: " + alcohol)
-
 console.log("Gasolina: " + gasoline)
-
-console.lo
+console.log("Diesel: " + diesel)
